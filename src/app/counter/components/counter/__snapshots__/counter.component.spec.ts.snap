@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CounterComponent should show current counter 1`] = `
+<app-counter
+  counter={[Function Number]}
+  decrement={[Function EventEmitter]}
+  increment={[Function EventEmitter]}
+>
+  <pre>
+    <code>
+      counter =&gt; 13
+    </code>
+  </pre>
+  
+  <button>
+    increment
+  </button>
+  <button>
+    decrement
+  </button>
+  <button>
+    increment async
+  </button>
+  <button>
+    increment if odd
+  </button>
+  
+</app-counter>
+`;
