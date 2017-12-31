@@ -7,9 +7,15 @@ export const routes: Routes = [
     pathMatch : 'full',
   },
 
-  // カウンターページ
+  // counter app
   {
     path        : 'counter',
     loadChildren: './counter/counter.module#CounterModule',
+  },
+
+  // TODO app
+  {
+    path        : 'todos',
+    loadChildren: './todos/todos.module#TodosModule',
   }
 ];

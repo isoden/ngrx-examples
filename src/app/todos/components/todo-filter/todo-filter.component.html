@@ -1,0 +1,6 @@
+<p>
+  Filter: 
+  <button (click)="onFilterChange('SHOW_ALL')"       [disabled]="filter === 'SHOW_ALL'">All</button>
+  <button (click)="onFilterChange('SHOW_ACTIVE')"    [disabled]="filter === 'SHOW_ACTIVE'">Active</button>
+  <button (click)="onFilterChange('SHOW_COMPLETED')" [disabled]="filter === 'SHOW_COMPLETED'">Completed</button>
+</p>

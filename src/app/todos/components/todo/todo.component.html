@@ -1,0 +1,7 @@
+<p>
+  <label>
+    <input type="checkbox" [checked]="todo.completed" (change)="onToggle()">
+    <span class="sr-only">Toggle complete</span>
+  </label>
+  <span [style.text-decoration]="todo.completed ? 'line-through' : ''">{{ todo.title }}</span>
+</p>

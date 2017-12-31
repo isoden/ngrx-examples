@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Items Add should add new todo 1`] = `
+Object {
+  "entities": Object {
+    "1": Todo {
+      "completed": false,
+      "id": 1,
+      "title": "Learn Angular",
+    },
+    "2": Todo {
+      "completed": false,
+      "id": 2,
+      "title": "Learn Zone.js",
+    },
+    "3": Todo {
+      "completed": false,
+      "id": 3,
+      "title": "Learn RxJS",
+    },
+  },
+  "ids": Array [
+    1,
+    2,
+    3,
+  ],
+  "lastId": 3,
+}
+`;
+
+exports[`Items Toggle should toggle completed of todo 1`] = `
+Object {
+  "entities": Object {
+    "1": Todo {
+      "completed": false,
+      "id": 1,
+      "title": "Learn Angular",
+    },
+    "2": Object {
+      "completed": true,
+      "id": 2,
+      "title": "Learn Zone.js",
+    },
+    "3": Todo {
+      "completed": false,
+      "id": 3,
+      "title": "Learn RxJS",
+    },
+  },
+  "ids": Array [
+    1,
+    2,
+    3,
+  ],
+  "lastId": 3,
+}
+`;
+
+exports[`Items should return default state 1`] = `
+Object {
+  "entities": Object {},
+  "ids": Array [],
+  "lastId": 0,
+}
+`;
