@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CounterPageComponent should compile 1`] = `
+<app-counter-page
+  counter$={[Function Store]}
+  store={[Function Store]}
+>
+  <app-counter
+    ng-reflect-counter="0"
+  >
+    <pre>
+      <code>
+        counter =&gt; 0
+      </code>
+    </pre>
+    
+  
+  
+    <button>
+      increment
+    </button>
+    
+  
+    <button>
+      decrement
+    </button>
+    
+  
+    <button>
+      increment async
+    </button>
+    
+  
+    <button>
+      increment if odd
+    </button>
+    
+  
+  </app-counter>
+  
+</app-counter-page>
+`;
