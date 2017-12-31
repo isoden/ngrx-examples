@@ -5,38 +5,60 @@ exports[`CounterPageComponent should compile 1`] = `
   counter$={[Function Store]}
   store={[Function Store]}
 >
-  <app-counter
-    ng-reflect-counter="0"
-  >
-    <pre>
-      <code>
-        counter =&gt; 0
-      </code>
-    </pre>
+  <section>
+    
+    
+    <h1
+      class="Heading -lv1"
+    >
+      Counter
+    </h1>
     
   
+    
+    <div
+      class="Card"
+    >
+      
+      
+      <app-counter
+        ng-reflect-counter="0"
+      >
+        <pre>
+          <code>
+            counter =&gt; 0
+          </code>
+        </pre>
+        
   
-    <button>
-      increment
-    </button>
+  
+        <button>
+          increment
+        </button>
+        
+  
+        <button>
+          decrement
+        </button>
+        
+  
+        <button>
+          increment async
+        </button>
+        
+  
+        <button>
+          increment if odd
+        </button>
+        
+  
+      </app-counter>
+      
+    
+    </div>
     
   
-    <button>
-      decrement
-    </button>
-    
-  
-    <button>
-      increment async
-    </button>
-    
-  
-    <button>
-      increment if odd
-    </button>
-    
-  
-  </app-counter>
+  </section>
   
 </app-counter-page>
 `;
