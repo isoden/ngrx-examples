@@ -1,19 +1,25 @@
 <header class="Header" role="banner">
-  <div class="Grid">
-    <div class="Grid__item--24of24">
-      <h1 class="Header__title"><img src="/assets/angular-logo.svg" width="30" alt=""> ngrx examples</h1>
-    </div>
+  <div class="Header__inner">
+    <h1 class="Header__title"><img src="/assets/angular-logo.svg" width="30" alt=""> ngrx examples</h1>
+
+    <ul class="Header__menu">
+      <li>
+        <a href="https://github.com/isoden/ngrx-examples">
+          <img src="/assets/github-logo.svg" width="28" alt="Fork me on GitHub">
+        </a>
+      </li>
+    </ul>
   </div>
 </header>
-  
-<div class="Grid">
-  <aside class="Grid__item--6of24" role="complementary">
-    <nav class="Menu" role="navigation">
+
+<div class="Container">
+  <aside class="Menu" role="complementary">
+    <nav class="Menu__list" role="navigation">
       <a class="Menu__item" routerLinkActive="-active" routerLink="/counter">Counter</a>
     </nav>
   </aside>
 
-  <main class="Grid__item--18of24" role="main">
+  <main class="Main" role="main">
     <router-outlet></router-outlet>
   </main>
 </div>
