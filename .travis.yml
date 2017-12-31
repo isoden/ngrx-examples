@@ -1,13 +1,8 @@
 language: node_js
 node_js:
   - "8"
-
-script:
-  - echo "Deploy!!!"
-
 install:
   - npm install
-
 after_success:
   - ng build -prod --output-hashing all --extract-css --aot
   - firebase deploy --project ngrx-examples --token $FIREBASE_TOKEN
