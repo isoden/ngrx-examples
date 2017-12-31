@@ -1,0 +1,16 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  padding-left: 0;
+  list-style-position: inside;
+}
+
+body {
+  font: 14px/1.8 "Noto Sans Japanese", sans-serif;
+}

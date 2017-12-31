@@ -1,0 +1,19 @@
+.Grid {
+  $grid-gutter: 15px;
+
+  @at-root {
+    & {
+      width: 960px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    @for $i from 1 through 24 {
+      &__item--#{$i}of24 {
+        width: percentage($i / 24);
+        padding: 0 $grid-gutter;
+      }
+    }
+  }
+}

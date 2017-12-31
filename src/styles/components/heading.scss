@@ -1,0 +1,11 @@
+.Heading {
+  @at-root {
+    & {
+      margin-top: 0;
+    }
+
+    &.-lv1 {
+      font-size: 24px;
+    }
+  }
+}

@@ -1,8 +1,52 @@
+.Header {
+  $background-color: #333;
+  
+  @at-root {
+    & {
+      margin: 0 0 30px;
+      background-color: $background-color;
+      color: #fff;
+    }
 
-:host {
-  width: 960px;
-  margin: 0 auto;
-  padding: 0 15px;
-  box-sizing: border-box;
-  display: flex;
+    &__title {
+      margin: .5em 0;
+      font-size: 1.4em;
+
+      img {
+        vertical-align: bottom;
+      }
+    }
+  }
+}
+
+.Menu {
+  $link-color: #777;
+  $link-active: #eee;
+
+  @at-root {
+    &__list {
+      margin: 0;
+      list-style: none;
+    }
+
+    &__item {
+      display: block;
+      padding: .5em 1em;
+      color: $link-color;
+      text-decoration: none;
+
+      &:hover {
+        background-color: $link-active;
+      }
+
+      &.-active {
+        background-color: $link-active;
+
+        &::before {
+          content: '☞';
+          margin: 0 6px 0 0;
+        }
+      }
+    }
+  }
 }

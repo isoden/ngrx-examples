@@ -1,1 +1,19 @@
-<router-outlet></router-outlet>
+<header class="Header" role="banner">
+  <div class="Grid">
+    <div class="Grid__item--24of24">
+      <h1 class="Header__title"><img src="/assets/angular-logo.svg" width="30" alt=""> ngrx examples</h1>
+    </div>
+  </div>
+</header>
+  
+<div class="Grid">
+  <aside class="Grid__item--6of24" role="complementary">
+    <nav class="Menu" role="navigation">
+      <a class="Menu__item" routerLinkActive="-active" routerLink="/counter">Counter</a>
+    </nav>
+  </aside>
+
+  <main class="Grid__item--18of24" role="main">
+    <router-outlet></router-outlet>
+  </main>
+</div>
