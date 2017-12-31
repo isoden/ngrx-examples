@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoFilterComponent should compile 1`] = `
+<app-todo-filter
+  filter={[Function String]}
+  filterChange={[Function EventEmitter]}
+>
+  <p>
+    
+    Filter: 
+    
+    <button
+      disabled=""
+    >
+      All
+    </button>
+    
+    
+    <button>
+      Active
+    </button>
+    
+    
+    <button>
+      Completed
+    </button>
+    
+  
+  </p>
+  
+</app-todo-filter>
+`;
+
+exports[`TodoFilterComponent should reflect current filter 1`] = `
+<app-todo-filter
+  filter={[Function String]}
+  filterChange={[Function EventEmitter]}
+>
+  <p>
+    
+    Filter: 
+    
+    <button>
+      All
+    </button>
+    
+    
+    <button
+      disabled=""
+    >
+      Active
+    </button>
+    
+    
+    <button>
+      Completed
+    </button>
+    
+  
+  </p>
+  
+</app-todo-filter>
+`;
+
+exports[`TodoFilterComponent should reflect current filter 2`] = `
+<app-todo-filter
+  filter={[Function String]}
+  filterChange={[Function EventEmitter]}
+>
+  <p>
+    
+    Filter: 
+    
+    <button>
+      All
+    </button>
+    
+    
+    <button>
+      Active
+    </button>
+    
+    
+    <button
+      disabled=""
+    >
+      Completed
+    </button>
+    
+  
+  </p>
+  
+</app-todo-filter>
+`;
