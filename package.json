@@ -7,8 +7,10 @@
     "start": "ng serve",
     "build": "ng build --prod",
     "test": "jest",
+    "test:watch": "jest --watch",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "cypress run",
+    "e2e:watch": "cypress open"
   },
   "private": true,
   "dependencies": {
