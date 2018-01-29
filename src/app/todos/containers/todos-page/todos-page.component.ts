@@ -1,5 +1,5 @@
 import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
-import { Store } from '@ngrx/store';
+import { Store, select } from '@ngrx/store';
 import { combineLatest } from 'rxjs/observable/combineLatest';
 import { of } from 'rxjs/observable/of';
 import { VisibilityFilter, Todo } from '../../models';
@@ -13,10 +13,10 @@ import * as Todos from '../../actions/todos';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class TodosPageComponent implements OnInit {
-  visibilityFilter$ = this.store.select(fromTodos.getVisibilityFilter);
+  visibilityFilter$ = this.store.pipe(select(fromTodos.getVisibilityFilter));
 
   todos$ = combineLatest(
-    this.store.select(fromTodos.getTodos),
+    this.store.pipe(select(fromTodos.getTodos)),
     this.visibilityFilter$,
     (todos, filter) => {
       const filterMap = {

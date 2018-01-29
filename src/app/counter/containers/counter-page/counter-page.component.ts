@@ -1,5 +1,5 @@
 import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
-import { Store } from '@ngrx/store';
+import { Store, select } from '@ngrx/store';
 import * as Counter from '../../actions/counter';
 import * as fromCounter from '../../reducers';
 
@@ -13,7 +13,7 @@ export class CounterPageComponent implements OnInit {
   /**
    * counter value
    */
-  counter$ = this.store.select(fromCounter.getCounter);
+  counter$ = this.store.pipe(select(fromCounter.getCounter));
 
   constructor(
     private store: Store<fromCounter.State>
