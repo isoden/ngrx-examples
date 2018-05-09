@@ -4,5 +4,5 @@ node_js:
 install:
   - npm install
 after_success:
-  - ng build -prod --output-hashing all --extract-css --aot
-  - firebase deploy --project ngrx-examples --token $FIREBASE_TOKEN
+  - npm run build
+  - npm run deploy

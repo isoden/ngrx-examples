@@ -5,7 +5,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod",
+    "build": "ng build --prod --output-hashing all --extract-css --aot",
+    "deploy": "firebase deploy --project ngrx-examples --token $FIREBASE_TOKEN",
     "test": "jest",
     "test:watch": "jest --watch",
     "lint": "ng lint",
