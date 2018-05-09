@@ -6,28 +6,19 @@ exports[`TodoFilterComponent should compile 1`] = `
   filterChange={[Function EventEmitter]}
 >
   <p>
-    
-    Filter: 
-    
+     Filter: 
     <button
       disabled=""
     >
       All
     </button>
-    
-    
     <button>
       Active
     </button>
-    
-    
     <button>
       Completed
     </button>
-    
-  
   </p>
-  
 </app-todo-filter>
 `;
 
@@ -37,28 +28,19 @@ exports[`TodoFilterComponent should reflect current filter 1`] = `
   filterChange={[Function EventEmitter]}
 >
   <p>
-    
-    Filter: 
-    
+     Filter: 
     <button>
       All
     </button>
-    
-    
     <button
       disabled=""
     >
       Active
     </button>
-    
-    
     <button>
       Completed
     </button>
-    
-  
   </p>
-  
 </app-todo-filter>
 `;
 
@@ -68,27 +50,18 @@ exports[`TodoFilterComponent should reflect current filter 2`] = `
   filterChange={[Function EventEmitter]}
 >
   <p>
-    
-    Filter: 
-    
+     Filter: 
     <button>
       All
     </button>
-    
-    
     <button>
       Active
     </button>
-    
-    
     <button
       disabled=""
     >
       Completed
     </button>
-    
-  
   </p>
-  
 </app-todo-filter>
 `;
