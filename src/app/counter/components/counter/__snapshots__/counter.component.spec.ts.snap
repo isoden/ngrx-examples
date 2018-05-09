@@ -10,20 +10,14 @@ exports[`CounterComponent should show current counter 1`] = `
     <code>
       counter =&gt; 13
     </code>
-  </pre>
-  
-  <button>
+  </pre><button>
     increment
-  </button>
-  <button>
+  </button><button>
     decrement
-  </button>
-  <button>
+  </button><button>
     increment async
-  </button>
-  <button>
+  </button><button>
     increment if odd
   </button>
-  
 </app-counter>
 `;

@@ -6,33 +6,20 @@ exports[`TodoComponent should compile 1`] = `
   toggle={[Function EventEmitter]}
 >
   <p>
-    
-    
     <label>
-      
-      
       <input
         type="checkbox"
       />
-      
-      
       <span
         class="sr-only"
       >
         Toggle complete
       </span>
-      
-    
     </label>
-    
-    
     <span>
       Learn Angular
     </span>
-    
-  
   </p>
-  
 </app-todo>
 `;
 
@@ -42,33 +29,20 @@ exports[`TodoComponent should display todo title 1`] = `
   toggle={[Function EventEmitter]}
 >
   <p>
-    
-    
     <label>
-      
-      
       <input
         type="checkbox"
       />
-      
-      
       <span
         class="sr-only"
       >
         Toggle complete
       </span>
-      
-    
     </label>
-    
-    
     <span>
       Learn Zone.js
     </span>
-    
-  
   </p>
-  
 </app-todo>
 `;
 
@@ -78,34 +52,21 @@ exports[`TodoComponent should render title with strikethrough if todo is complet
   toggle={[Function EventEmitter]}
 >
   <p>
-    
-    
     <label>
-      
-      
       <input
         type="checkbox"
       />
-      
-      
       <span
         class="sr-only"
       >
         Toggle complete
       </span>
-      
-    
     </label>
-    
-    
     <span
       style="text-decoration: line-through;"
     >
       Learn RxJS
     </span>
-    
-  
   </p>
-  
 </app-todo>
 `;

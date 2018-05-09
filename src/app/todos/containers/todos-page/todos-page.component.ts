@@ -1,7 +1,6 @@
 import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
 import { Store, select } from '@ngrx/store';
-import { combineLatest } from 'rxjs/observable/combineLatest';
-import { of } from 'rxjs/observable/of';
+import { combineLatest , of } from 'rxjs';
 import { VisibilityFilter, Todo } from '../../models';
 import * as fromTodos from '../../reducers';
 import * as Todos from '../../actions/todos';

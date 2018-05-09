@@ -7,79 +7,47 @@ exports[`TodosPageComponent should compile 1`] = `
   visibilityFilter$={[Function Store]}
 >
   <section>
-    
-    
     <h1
       class="Heading -lv1"
     >
       Todos
     </h1>
-    
-  
-    
     <div
       class="Card"
     >
-      
-      
       <app-todo-input>
         <input
           class="ng-untouched ng-pristine ng-invalid"
           ng-reflect-form="[object Object]"
           type="text"
         />
-        
-  
         <button
           disabled=""
           type="button"
         >
           Add todo
         </button>
-        
-  
       </app-todo-input>
-      
-  
-      
-      
-      
-  
       
       <app-todo-filter
         ng-reflect-filter="SHOW_ALL"
       >
         <p>
-          
-    Filter: 
-    
+           Filter: 
           <button
             disabled=""
           >
             All
           </button>
-          
-    
           <button>
             Active
           </button>
-          
-    
           <button>
             Completed
           </button>
-          
-  
         </p>
-        
-  
       </app-todo-filter>
-      
-    
     </div>
-    
-  
   </section>
-  
 </app-todos-page>
 `;
