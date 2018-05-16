@@ -3,7 +3,7 @@
 exports[`TodosPageComponent should compile 1`] = `
 <app-todos-page
   store={[Function Store]}
-  todos$={[Function Observable]}
+  todos$={[Function Store]}
   visibilityFilter$={[Function Store]}
 >
   <section>
