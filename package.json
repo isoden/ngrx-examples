@@ -46,6 +46,7 @@
     "@types/jasminewd2": "~2.0.2",
     "@types/jest": "^22.0.0",
     "@types/node": "~6.0.60",
+    "bundlesize": "^0.17.0",
     "codelyzer": "^4.0.1",
     "cypress": "^1.4.1",
     "jasmine-core": "~2.6.2",
@@ -63,6 +64,13 @@
     "tslint": "~5.7.0",
     "typescript": "2.7.2"
   },
+  "bundlesize": [
+    {
+      "path": "./dist/main.*.js",
+      "maxSize": "10 kB"
+    }
+
+  ],
   "jest": {
     "preset": "jest-preset-angular",
     "setupTestFrameworkScriptFile": "<rootDir>/src/setup-jest.ts"
